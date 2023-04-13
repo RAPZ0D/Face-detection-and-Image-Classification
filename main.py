@@ -9,6 +9,7 @@ while(True):
     ret,frame=cap.read() #this captures the image frame by frame
     gray=cv.cvtColor(frame, cv.COLOR_BGR2GRAY)
     faces=face_cascade.detectMultiScale(gray,scaleFactor=1.5,minNeighbors=5)
+    # Loop through the faces
     for (x,y,w,h) in faces:
         print(x,y,w,h) #this will print the co-ordinates of the face
         roi_color=frame[y:y+h, x:x+w] 
