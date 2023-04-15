@@ -2,7 +2,7 @@ import numpy as np
 import cv2 as cv #importing the libraries
 
 face_cascade=cv.CascadeClassifier('frontal_face.xml')
-#The number in the video capture represents your camera
+#The number in the video capture represents your camera if the number 1 does not work try using 0 
 cap=cv.VideoCapture(1) #You can change the number to 0,1 or 2 depending on the external camera attached
 
 while(True):
