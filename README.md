@@ -6,15 +6,22 @@
 * [Prerequisites](#Prerequisites) 
 * [Installation](#Installation)
 * [Usage](#Usage)
+* [Face Detection](#Face-Detection)
 * [Image Classification](#Image-Classification)
 * [Acknowledgments](#Acknowledgments)
 * [Contributing](#Contributing)
 
 ### **This project uses machine learning techniques to perform two tasks:**.
 
-1) Face Detection: Given an input image or video stream, the program detects faces in the image and frames them with a rectangle.
-2) Image Classification: Given an input image, the program identifies what is depicted in the image by classifying it into one of several categories.
-The project is written in Python and utilizes several open-source libraries, including OpenCV, TensorFlow, and Keras. These libraries are commonly used in machine learning and computer vision applications.
+1) **Face Detection:** This is a live Face Detection that uses your desktop/laptop camera and detects faces in the camera and displays the output. It uses OPENCV library to perform this Face Detection.
+
+![FACE](https://user-images.githubusercontent.com/100001521/233773507-137f3680-69c6-460c-bd80-f559c57252dd.jpeg)
+
+
+2) **Image Classification:** The Image Classification we have worked on detects weather the image provided is of a Happy person or a Sad Person. Given an input image, the program identifies what is depicted in the image by classifying it into one of several categories, it takes the image shape and breaks it down to a numpy array, then we do the same process to the dataset and train the neural network. Once this is completed we can read in a random image and it will detect weather the given person is Happy or Sad. The project is written in Python and utilizes several open-source libraries, including OpenCV, TensorFlow, and Keras. These libraries are commonly used in machine learning and computer vision applications.
+
+![DOG CAT](https://user-images.githubusercontent.com/100001521/233773652-4651d914-48a8-489b-92fb-f3c602b22811.jpeg)
+
 
 ## Getting Started
 
@@ -23,17 +30,28 @@ Before you can use this program, you will need to install several software packa
 
 **Python:** This program requires Python 3.x, which can be downloaded and installed from [Python](https://www.python.org/downloads/) official website. 
 
-**OpenCV:** OpenCV is a computer vision library that is used for the face detection portion of this project. You can install OpenCV by running the following command in your terminal:
+**OpenCV:** OpenCV is a computer vision library that is used for the Face Detection and Image Classification part this project. You can install OpenCV by running the following command in your terminal:
 
-``` pip install opencv-python-headless ```
+``` pip install opencv-python ```
+
+
+![OpenCV](https://user-images.githubusercontent.com/100001521/233774150-e8f64546-99fe-4505-98b1-197172b70359.jpeg)
+
 
 **TensorFlow:** TensorFlow is a machine learning library that is used for the image classification portion of this project. You can install TensorFlow by running the following command in your terminal:
 
 ``` pip install tensorflow ```
 
-**Keras:** Keras is a high-level neural networks API that is used for the image classification portion of this project. You can install Keras by running the following command in your terminal:
+![TF](https://user-images.githubusercontent.com/100001521/233774204-25896e44-a21d-4c59-a681-914e478f9603.png)
+
+
+
+**Keras:** Keras is a high-level neural networks API that is used for the image classification portion of this project, this library helps us build a Neural Network for Training. You can install Keras by running the following command in your terminal:
 
 ``` pip install keras ```
+
+![KERAS](https://user-images.githubusercontent.com/100001521/233774286-17cc50a6-861a-4250-b898-d1a3015ea1f2.png)
+
 
 ## Installation
 Once you have installed the required software packages, you can download and install this program. Here's how:
@@ -43,6 +61,10 @@ Once you have installed the required software packages, you can download and ins
 * Clone the repository by running the following command in your terminal:
 
 ``` git clone https://github.com/RAPZ0D/Face-detection-and-Image-Classification.git ```
+
+**OR**
+
+You can even download the **.zip** file directly from github itself and save it in your required folder, after that you can extract it there and get this whole code avaliable.
 
 ## Usage
 There are two ways to use this program: face detection and image classification. Here's how to use each of them:
