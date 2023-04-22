@@ -9,7 +9,8 @@ Our Second Project Begins with Image Classification using the combination of pow
 So We have created a live face Detection program using OpenCV library which is created by INTEL and which stands for COMPUTER VISIONS. 
 With the help of this library we can detect Faces, Smile, Eyes and even a Number Plate isn't that amazing!
 
-!![OpenCV](https://user-images.githubusercontent.com/100001521/233752429-03abf6d0-1c08-4fcd-a3d1-2b25186cadc5.jpeg)
+![OpenCV](https://user-images.githubusercontent.com/100001521/233752429-03abf6d0-1c08-4fcd-a3d1-2b25186cadc5.jpeg)
+
 # TENSORFLOW
 Tensorflow is an open source Machine Learning library developed by GOOGLE, some of the common areas where tensorflow is used is data automation, model tracking, performance monitoring, model retraining, etc. 
 
