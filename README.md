@@ -51,16 +51,6 @@ There are two ways to use this program: face detection and image classification.
 ``` pip install -r requirements.txt ```
 
 ### Face Detection
-To run face detection on an input image, follow these steps:
-
-* Navigate to the directory where you installed this program.
-* Open a terminal window.
-* Run the following command:
-
-``` python face_detection.py --image path/to/image.jpg ```
-
-Replace **path/to/image.jpg** with the path to the image you want to analyze.
-
 
 To run face detection on a video stream, follow these steps:
 
@@ -68,20 +58,24 @@ To run face detection on a video stream, follow these steps:
 * Open a terminal window.
 * Run the following command:
 
-``` python face_detection.py ```
+``` python main.py```
 
 **This will start the program and open your computer's default camera. The program will detect faces in real-time and frame them with a rectangle.**
 
 ### Image Classification
+The image classification is program is completed in an **.ipynb file** so that means you don't need a terminal to run the code, you will only need the required libraries and the image data to run this program 
+Make sure that you have saved the location of the data properly so that you can use it with ease. 
 To run image classification on an input image, follow these steps:
 
-* Navigate to the directory where you installed this program.
-* Open a terminal window.
-* Run the following command:
+* Open the Happy/Sad Detection.ipynb file 
+* The whole program is completed with markdown and code
+* Go through this code once so you can view the output and you can get an idea what is being done here
+* Once you have viewed everything, now when you load the data from the local file or cloud based IDE make sure you load the data with the correct path 
+* In the current program we have used **Google Colab** and imported **Google Drive** and then we have copied the path of the data and uploaded it.
+* We highly recommend you to use Google Colab because it has built in **Tensorflow** and many other required libraries, it is not necessary to use Colab you can even use other IDE's such as **Jupyter Notebook**, **VSCode**, etc. but just remember to download the required libraries otherwise the code may not run 
 
-``` python image_classification.py --image path/to/image.jpg ```
+``` Happy/Sad Detection.ipynb```
 
-Replace **path/to/image.jpg** with the path to the image you want to analyze.
 
 The program will analyze the input image and identify what is depicted in the image by classifying it into one of several categories.
 
