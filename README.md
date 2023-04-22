@@ -73,6 +73,8 @@ There are two ways to use this program: face detection and image classification.
 ``` pip install -r requirements.txt ```
 
 ### Face Detection
+![FACES](https://user-images.githubusercontent.com/100001521/233774653-d2d64f06-84ad-4329-83e5-3a208d0f47eb.jpeg)
+![MULTIPLE FACES](https://user-images.githubusercontent.com/100001521/233774658-0602f8d2-552c-445c-ac21-f89773d86677.jpeg)
 
 To run face detection on a video stream, follow these steps:
 
@@ -85,6 +87,10 @@ To run face detection on a video stream, follow these steps:
 **This will start the program and open your computer's default camera. The program will detect faces in real-time and frame them with a rectangle.**
 
 ### Image Classification
+![CLASS](https://user-images.githubusercontent.com/100001521/233774696-96187906-2b0a-4363-a80f-dfd79e6a9e66.jpeg)
+![Deep learning](https://user-images.githubusercontent.com/100001521/233774801-649a602e-cace-49bc-a408-0cb1e8e6e44a.jpeg)
+![TRAINING](https://user-images.githubusercontent.com/100001521/233774705-83fcf0a0-3005-4738-a480-55479b349c3d.png)
+
 The image classification is program is completed in an **.ipynb file** so that means you don't need a terminal to run the code, you will only need the required libraries and the image data to run this program 
 Make sure that you have saved the location of the data properly so that you can use it with ease. 
 To run image classification on an input image, follow these steps:
