@@ -119,7 +119,7 @@ If you have any questions or concerns about this project, please contact us at [
 
 ### Links 
 These are the links we are providing you from where we have started our research, our recommended github link from where we had the idea for this project and even the link for our dataset 
-* ![Research Data link](https://arxiv.org/pdf/1710.07557v1.pdf)
-* ![Github Repo link](https://github.com/oarriaga/face_classification)
-* ![Image data link access](https://drive.google.com/drive/folders/14Xnyjp4x-Flj3qfSc-7oZtN9uZiBCMVX)
+* [Research Data link](https://arxiv.org/pdf/1710.07557v1.pdf)
+* [Github Repo link](https://github.com/oarriaga/face_classification)
+* [Image data link access](https://drive.google.com/drive/folders/14Xnyjp4x-Flj3qfSc-7oZtN9uZiBCMVX)
 
