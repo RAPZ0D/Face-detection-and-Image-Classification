@@ -10,6 +10,7 @@
 * [Image Classification](#Image-Classification)
 * [Acknowledgments](#Acknowledgments)
 * [Contributing](#Contributing)
+* [Links](#Links)
 
 ### **This project uses machine learning techniques to perform two tasks:**.
 
@@ -114,4 +115,11 @@ This program builds on the work of many other programmers and researchers in the
 We welcome contributions to this project from anyone interested in improving it. If you would like to contribute, please fork this repository and make your changes in a separate branch. Then, submit a pull request explaining the changes you've made and why they are valuable. We will review your changes and merge them if they meet our standards.
 
 ### Contact
-If you have any questions or concerns about this project, please contact us at [email address]. We would be happy to hear from you.
+If you have any questions or concerns about this project, please contact us at [Contributor 1 email address ](joel.mendonsa30@gmail.com) [Contributor 2 email address](iwuchukwu.johnpaul@gmail.com). We would be happy to hear any solutions, recommendations or any advices that you have.
+
+### Links 
+These are the links we are providing you from where we have started our research, our recommended github link from where we had the idea for this project and even the link for our dataset 
+* ![Research Data link](https://arxiv.org/pdf/1710.07557v1.pdf)
+* ![Github Repo link](https://github.com/oarriaga/face_classification)
+* ![Image data link access](https://drive.google.com/drive/folders/14Xnyjp4x-Flj3qfSc-7oZtN9uZiBCMVX)
+
