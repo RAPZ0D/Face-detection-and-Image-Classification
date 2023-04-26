@@ -123,3 +123,7 @@ These are the links we are providing you from where we have started our research
 * [Github Repo link](https://github.com/oarriaga/face_classification)
 * [Image data link access](https://drive.google.com/drive/folders/14Xnyjp4x-Flj3qfSc-7oZtN9uZiBCMVX)
 
+### References 
+1) Yibo Hu, Xiang Wu, and Ran He. Tf-nas: Rethinking three search freedoms of latency-constrained differentiable neural architecture search. In ECCV, 2020.
+2) Mei Wang, Weihong Deng, Jiani Hu, Xunqiang Tao, and Yaohai Huang. Racial faces in the wild: Reducing racial bias by information maximization adaptation network. In ICCV, 2019.
+3) Dongyoon Han, Sangdoo Yun, Byeongho Heo, and Youngjoon Yoo. Rethinking channel dimensions for efficient model design. In CVPR, 2021.
