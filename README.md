@@ -11,6 +11,7 @@
 * [Acknowledgments](#Acknowledgments)
 * [Contributing](#Contributing)
 * [Links](#Links)
+* [References](#References)
 
 ### **This project uses machine learning techniques to perform two tasks:**.
 
